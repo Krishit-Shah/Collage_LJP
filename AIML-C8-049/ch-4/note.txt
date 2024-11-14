@@ -1,0 +1,20 @@
+NOTE:-shorthand(border property)
+border-width border-style
+EX:-1px
+
+
+write html and css script  to design signup form having filed llike username,password,choice of sports
+ like cricket,badmintion,tennice include gender field,submit and reset button follow ,below requirements
+ 
+ 
+1:whilw howering username and password its background ahould turn yellow coloer and pink color respectivly
+2:while clicking sports and gendwer field text should turn to red color
+3:both submit and resset butto text should turn red color
+4:use appropiate selectors
+
+
+task2 write following style in seprate css filed
+
+1:heading should have normal font style and size should be 120%
+2:define a class name arial for paragraph with arial font famoly  bold text and 3 cm  spacing for paragraph instalation 
+3:apply background image and background color and it should be  repetedly vrtically only

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Hole Simulation</title>
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+        }
+
+        .black-hole {
+            width: 300px;
+            height: 300px;
+            border-radius: 80%;
+            background: radial-gradient(circle, 
+                rgba(0, 0, 0, 1) 40%,
+                rgba(255, 140, 0, 0.8) 60%,
+                rgba(255, 0, 0, 0.6) 80%, 
+                rgba(255, 255, 255, 0.3) 100% /* Faint outer glow */
+            );
+            box-shadow: 0 0 30px rgba(255, 140, 0, 0.5); /* Glowing effect around the disk */
+        }
+    </style>
+</head>
+<body>
+
+<div class="black-hole"></div>
+
+</body>
+</html>
